@@ -9,7 +9,7 @@ export default function HomePage() {
 
   return (
     <>
-      <section className="relative min-h-[88vh] overflow-hidden bg-navy text-white">
+      <section className="relative min-h-[78vh] overflow-hidden bg-navy text-white md:min-h-[88vh]">
         <Image
           src="/images/shop/dealership.webp"
           alt="Bert Suyker Autorama dealership building in Burgessville, Ontario"
@@ -22,7 +22,7 @@ export default function HomePage() {
           className="absolute inset-0 bg-gradient-to-r from-navy/90 via-navy/70 to-navy/35"
           aria-hidden="true"
         />
-        <div className="container-page relative flex min-h-[88vh] flex-col justify-end pb-16 pt-28 md:justify-center md:pb-24 md:pt-20">
+        <div className="container-page relative flex min-h-[78vh] flex-col justify-center py-20 md:min-h-[88vh] md:py-24">
           <div className="max-w-3xl">
             <p className="reveal text-sm font-semibold tracking-[0.18em] text-brand-soft uppercase">
               Burgessville, Ontario · Since {site.foundedDisplay}
