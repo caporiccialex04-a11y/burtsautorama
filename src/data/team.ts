@@ -1,7 +1,19 @@
 export const aboutCopy = {
   title: "About Us",
   tagline: "Customer service is not a department, it's how we do things",
-  body: "Let us show you how easy it is to buy a quality used car in Southwestern Ontario. We believe fair prices, superior service, and treating customers right leads to satisfied repeat buyers. Our friendly and knowledgeable sales staff is here to help you find the car you deserve, priced to fit your budget. Shop our virtual showroom of used cars, trucks and suv’s online then stop by for a test drive. We will be happy to help you find your next Vehicle. Our 3 Bay Service Department is equipped with the latest diagnostic equipment. We offer competitive pricing on parts and service. We also offer free pick up and delivery of your vehicle and loaner vehicles.",
+  /** Kept word-for-word from the live site; split only for layout. */
+  paragraphs: [
+    "Let us show you how easy it is to buy a quality used car in Southwestern Ontario. We believe fair prices, superior service, and treating customers right leads to satisfied repeat buyers.",
+    "Our friendly and knowledgeable sales staff is here to help you find the car you deserve, priced to fit your budget. Shop our virtual showroom of used cars, trucks and suv’s online then stop by for a test drive. We will be happy to help you find your next Vehicle.",
+    "Our 3 Bay Service Department is equipped with the latest diagnostic equipment. We offer competitive pricing on parts and service. We also offer free pick up and delivery of your vehicle and loaner vehicles.",
+  ],
+  beliefs: ["Fair prices", "Superior service", "Treating customers right"],
+  serviceHighlights: [
+    "3 Bay Service Department with the latest diagnostic equipment",
+    "Competitive pricing on parts and service",
+    "Free pick up and delivery of your vehicle",
+    "Loaner vehicles available",
+  ],
   teamHeading: "Bert & William Suyker",
 };
 
