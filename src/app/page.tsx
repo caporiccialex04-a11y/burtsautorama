@@ -70,11 +70,12 @@ export default function HomePage() {
 
           <div className="mt-10 grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
             {featured.map((vehicle, index) => (
-              <VehicleCard
+              <div
                 key={vehicle.slug}
-                vehicle={vehicle}
-                priority={index < 2}
-              />
+                className={index > 0 ? "hidden sm:block" : undefined}
+              >
+                <VehicleCard vehicle={vehicle} priority={index < 2} />
+              </div>
             ))}
           </div>
           <p className="mt-6 text-sm text-ink-soft">{site.pricingDisclaimer}</p>

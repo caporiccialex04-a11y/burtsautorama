@@ -96,7 +96,7 @@ export function Header() {
 
       <div
         id="mobile-nav"
-        className={`border-b border-line bg-navy lg:hidden ${open ? "block" : "hidden"}`}
+        className={`border-b border-line bg-surface shadow-[0_16px_32px_rgba(11,36,48,0.16)] lg:hidden ${open ? "block" : "hidden"}`}
       >
         <nav aria-label="Mobile" className="container-page flex flex-col gap-1 py-4">
           {site.nav.map((item) => {
@@ -110,7 +110,9 @@ export function Header() {
                 href={item.href}
                 onClick={closeMenu}
                 className={`rounded-md px-3 py-3 text-base font-semibold ${
-                  active ? "bg-brand text-white" : "text-white/90 hover:bg-white/10"
+                  active
+                    ? "bg-brand text-white"
+                    : "text-navy hover:bg-brand-soft"
                 }`}
               >
                 {item.label}
